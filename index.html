@@ -22,15 +22,31 @@ top:300px;
 
 #logo{
 position:fixed;
-top: 0px;
+top:0px;
+left:65px;
 }
 
 #homepic{
 position: fixed;
 left:30px;
-top:225px;
+top:185px;
+}
+
+#banner{
+position: fixed;
+left:400px;
+top:50px;
+font-size: 25px;
 }
 </style>
+
+<script type="text/javascript">
+var image1 = new Image()
+image1.src = "maddieapp.jpg"
+var image2 = new Image()
+image2.src = "mickey.jpg.png"
+</script>
+
 </head>
 <body>
 <!-- Home page -->
@@ -38,7 +54,22 @@ top:225px;
 
 <div data-role="content">
 <img src="http://blog.flamingtext.com/blog/2013/08/09/flamingtext_com_1376084209_1046404566.png" border="0" id="logo" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com">
-<img border="0" src="maddieapp.jpg"  alt="Madison" width="400" height="400" id="homepic">
+<p id="banner"> Helping pets and owners find the <b>PERFECT</b> match since 2013 </p>
+<p><img src="maddieapp.jpg" width="450" height="400" name="slide" id="homepic"/></p>
+<script type="text/javascript">
+        var step=1;
+        function slideit()
+        {
+            document.images.slide.src = eval("image"+step+".src");
+            if(step<2)
+                step++;
+            else
+                step=1;
+            setTimeout("slideit()",2500);
+        }
+        slideit();
+</script>
+
 </div>
 
 <!--Take quiz--!>
