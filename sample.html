@@ -2,15 +2,10 @@
 <!doctype html>
 <html>
 <head>
-<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
-<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
-<script type="text/javascript">
-</script>
-$.noConflict();
-</script>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
 <style>
-
 a:link{
 color:#FFFFFF	
 }
@@ -21,6 +16,11 @@ color:#FFFFFF
 
 a:visited{
 color:#FFFFFF
+}
+
+#us{
+position:fixed;
+left:700px;
 }
 </style>
   <link rel="stylesheet" href="normalize.css">
@@ -35,20 +35,20 @@ color:#FFFFFF
 <div data-role="page" id="contact">
 
  <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>
+    
 	<div data-role="content">
 		<iframe id="JotFormIFrame" sandbox="allow-same-origin allow-scripts"  onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="
 		http://form.jotform.us/form/32234801785151" frameborder="0" style="width:100%; height:740px; border:none;"
-		 scrolling="no"></iframe>
-		
+		 scrolling="no"></iframe>	
 	</div><!-- /content -->
+	
 </div><!-- /page -->
 
 <!--Foster--!>
 <div data-role="page" id="foster">
 
  <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>
+    
 	<div data-role="content">
 		<iframe id="JotFormIFrame" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="http://form.jotform.co/form/32234791595865" frameborder="0" style="width:100%; height:675px; border:none;" scrolling="no"></iframe>
 		
@@ -59,1211 +59,42 @@ color:#FFFFFF
 <!--About--!>
 <div data-role="page" id="about">
 
-	<div id="head" data-role="header" data-theme="d" align="center">
  <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-	<text>About</text>
 
 	<div data-role="content">
 	 
-	 	<h3><center><b>About</b></center></h3>
+	 	<h1><b>About</b></h1>
 	 	
-			<center><img src="us.jpg.png"></center>
+		<center><img src="us.jpg.png" id="us" width="400" height="700"></center> 
 			
-		These days, many animals are adopted and bought from breeders and animal shelters. However, a majority of the 
-		animals are chosen by their physical features rather than their personality. Personality is a huge aspect in
-		establishing a relationship between an animal and their owner. It took my 3 tries of finding Madison, my current 
-		and permanent dog. As an energetic playful person, Madison was the perfect match and animal for the area I am
-		living in. She has a background to run around and have fun. She’s inspired me to become an advocate for animal
-		rights. So, I made this animal matchmaking website, hoping others won’t have to get rid of animals and to
-	    promote adopting. I hope that other people will find the same joy that I did when I met the dog that best
-		matches my personality. In addition, I hope that people will stop “judging a book by its cover” and start 
-		looking more on the inside. 
+		<div><p>These days, many animals are adopted and bought from breeders and animal <br> 
+		 shelters. However,a majority of the animals are chosen by their physical features rather <br> 
+		  than their personality. Personality is a huge aspect in establishing a relationship<br> 
+		 between an animal and their owner. It took my 3 tries of finding Madison, my current <br> 
+		 and permanent dog. As an energetic playful person, Madison was the perfect match and <br> 
+		 animal for the area I am living in. She has a background to run around and have fun. <br> 
+		 She’s inspired me to become an advocate for animal rights. So, I made this animal <br> 
+		 matchmaking website, hoping others won’t have to get rid of animals and to promote <br> 
+		 adopting. I hope that other people will find the same joy that I did when I met the <br> 
+		 dog that best matches my personality. In addition, I hope that people will stop <br> 
+		 “judging a book by its cover” and start looking more on the inside.</p></div>
+		
+		<div><p>In addition to Cupet, I started @avoiceforanimals1, an animal awareness<br>
+	     Instagram (now expanding to other social media sites). The goal of avoiceforanimals1 <br>
+	     is to show that 1 person can be the voice for animals and I teach others about all <br>
+	     types of animal issues, ranging from signing petitions against the circus to <br>
+		 showing others the horrific practice in the fur industry.</p></div>
+		
 	</div><!-- /content -->
 </div><!-- /page -->
 
 
-<!-- Start of quiz page -->
-<div data-role="page" id="startquiz">
-
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Find your perfect pet</text>
-</div>
-
-<div>
-
-<p> 
-Take this quiz to find the perfect pet for you! If there are none, don't worry,
-   	we'll email when we find your perfect pet. Remember, it may take time so don't rush
-   	on choosing an animal. We will NOT be sharing any of this information with anybody.
-    </p>
-   
-</div>
-
-<div>
-<a href="#quiz"><button> Click here to start the quiz</button></a>
-</div>
-
-<div>
-
-<p> 
-Can't keep a pet and want to foster? Please fill out this foster form as well as the quiz so I can match you up with 
-animal similar to you! Make sure that the email address' you fill out for both animals are the same. 
-    </p>
-   
-</div>
-
-<div>
-<a href="#foster"><button> Foster form</button></a>
-</div>
-
-</div> <!---content---!>
-</div> 
-
-<!--Quiz page--!>
-<div data-role="page" id="quiz">
-
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Quiz</text>
-</div>
-
-<div data-role="content">
-<iframe id="JotFormIFrame" sandbox="allow-same-origin allow-scripts" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="http://form.jotform.us/form/32196974969173" frameborder="0" style="width:100%; height:4476px; border:none;" scrolling="no"></iframe>
-<script type="text/javascript">window.handleIFrameMessage = function(e) {var args = e.data.split(":");var iframe = document.getElementById("JotFormIFrame");if (!iframe)return;switch (args[0]) {case "scrollIntoView":iframe.scrollIntoView();break;case "setHeight":iframe.style.height = args[1] + "px";break;}};if (window.addEventListener) {window.addEventListener("message", handleIFrameMessage, false);} else if (window.attachEvent) {window.attachEvent("onmessage", handleIFrameMessage);}</script>
-</div>
-
-</div><!-- /page -->
-
-<!--Submit an animal page--!>
-<div data-role="page" id="submitanimal">
-
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Quiz</text>
-</div>
-
-<div data-role="content">
-<form action="form.php" method="post">
-
-<h2>Basics</h2>
-
-<label for="text-basic">Name:</label>
-<input type="text" name="text-basic" id="text-basic" value="">
-
-<label for="select-choice-1" class="select">Type of Animal</label>
-<select name="select-choice-1" id="select-choice-1">
-   	 <option value="standard">Dog</option>
-   	 <option value="rush">Cat</option>
-   	 <option value="express">Small Animal</option>
-</select>
-
-<label for="select-choice-1" class="select">Age</label>
-<select name="select-choice-1" id="select-choice-1">
-   	 <option value="standard">Baby (2 months-1 year)</option>
-   	 <option value="rush">Adult (1-7 years)</option>
-   	 <option value="express">Senior (7+ years)</option>
-</select>
-
-<label>
-       	<input type="radio" name="radio-choice-0" id="radio-choice-0a">Male
-   	 </label>
-  <label for="radio-choice-0b">Female</label>
-   	 <input type="radio" name="radio-choice-0" id="radio-choice-0b" class="custom">
-   	
-<label for="select-choice-1" class="select">Size</label>
-<select name="select-choice-1" id="select-choice-1">
-   	 <option value="standard">Small</option>
-   	 <option value="rush">Medium</option>
-   	 <option value="express">Large</option>
-</select>
-
-<label for="text-basic">Breed:</label>
-<input type="text" name="text-basic" id="text-basic" value="">
-
-<label for="file">Photo:</label>
-<input type="file" name="file" id="file" value="">
-
-<h2>Medical</h2>
-<label for="textarea">What vaccinations has the animal already received?</label>
-<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
-
-<label for="textarea">What other vaccinations does the animal NEED to get?</label>
-<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
-
-<label for="textarea">Does the animal have any allergies/medical issues?</label>
-<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
-<h2>Personality</h2>
-
-<fieldset data-role="controlgroup">
-   	 <legend>What personality traits does the pet match with? You can choose more than one!</legend>
-   	 <input type="checkbox" name="energetic" id="energetic">
-   	 <label for="energetic">Energetic</label>
-   	 <input type="checkbox" name="quiet" id="quiet">
-   	 <label for="quiet">Quiet</label>
-   	 <input type="checkbox" name="mellow" id="mellow">
-   	 <label for="mellow">Mellow</label>
-   	 <input type="checkbox" name="playful" id="playful">
-   	 <label for="playful">playful</label>
-   	 <input type="checkbox" name="friendly" id="friendly">
-   	 <label for="friendly">Friendly</label>
-   	 <input type="checkbox" name="loud" id="loud">
-   	 <label for="loud">loud</label>
-   	 <input type="checkbox" name="loyal" id="loyal">
-   	 <label for="loyal">loyal</label>
-   	 <input type="checkbox" name="shy" id="shy">
-   	 <label for="shy">shy</label>
-   	 <input type="checkbox" name="lazy" id="lazy">
-   	 <label for="lazy">lazy</label>
-   	 <input type="checkbox" name="obedient" id="obedient ">
-   	 <label for="obedient">obedient</label>
-   	 <input type="checkbox" name="neat" id="neat">
-   	 <label for="neat">neat</label>
-</fieldset>
-</form>
-
-<fieldset data-role="controlgroup">
-   	 <legend>What personality traits does the animal NOT match with? You can choose more than one!</legend>
-   	 <input type="checkbox" name="energetic" id="energetic">
-   	 <label for="energetic">Energetic</label>
-   	 <input type="checkbox" name="quiet" id="quiet">
-   	 <label for="quiet">Quiet</label>
-   	 <input type="checkbox" name="mellow" id="mellow">
-   	 <label for="mellow">Mellow</label>
-   	 <input type="checkbox" name="playful" id="playful">
-   	 <label for="playful">playful</label>
-   	 <input type="checkbox" name="friendly" id="friendly">
-   	 <label for="friendly">Friendly</label>
-   	 <input type="checkbox" name="loud" id="loud">
-   	 <label for="loud">loud</label>
-   	 <input type="checkbox" name="loyal" id="loyal">
-   	 <label for="loyal">loyal</label>
-   	 <input type="checkbox" name="shy" id="shy">
-   	 <label for="shy">shy</label>
-   	 <input type="checkbox" name="lazy" id="lazy">
-   	 <label for="lazy">lazy</label>
-   	 <input type="checkbox" name="obedient" id="obedient ">
-   	 <label for="obedient">obedient</label>
-   	 <input type="checkbox" name="neat" id="neat">
-   	 <label for="neat">neat</label>
-</fieldset>
-</form>
-
-<label for="textarea">Anything else you want to mention regarding the animals personality? Feel free to tell us!</label>
-<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
-
-<h2> Environment </h2>
-
-<fieldset data-role="controlgroup">
-   	 <legend>What type of people does the animal live best with? You can choose more than one!</legend>
-   	 <input type="checkbox" name="energetic" id="energetic">
-   	 <label for="energetic">children</label>
-   	 <input type="checkbox" name="quiet" id="quiet">
-   	 <label for="quiet">teenagers</label>
-   	 <input type="checkbox" name="mellow" id="mellow">
-   	 <label for="mellow">adults</label>
-   	 <input type="checkbox" name="playful" id="playful">
-   	 <label for="playful">seniors</label>
-</fieldset>
-</form>
-
-<fieldset data-role="controlgroup">
-   	 <legend>What type of people does the animal NOT live best with? You can choose more than one!</legend>
-   	 <input type="checkbox" name="energetic" id="energetic">
-   	 <label for="energetic">children</label>
-   	 <input type="checkbox" name="quiet" id="quiet">
-   	 <label for="quiet">teenagers</label>
-   	 <input type="checkbox" name="mellow" id="mellow">
-   	 <label for="mellow">adults</label>
-   	 <input type="checkbox" name="playful" id="playful">
-   	 <label for="playful">seniors</label>
-</fieldset>
-</form>
-
-<label for="textarea">What type of environment is best for the animal?</label>
-<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
-
-<label for="textarea">Other:</label>
-<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
-
-</form>	
-
-<!--submit button--!>
-<div>
-<button><a href="">Submit</a></button>	
-</div>
-
-<!--cancel button--!>
-<div>
-<a href="home.html"><button>Cancel</button></a>
-</div>
-
-</div><!-- /content -->
-</div><!-- /page -->
-
-<!-- Animals page -->
-<div data-role="page" id="animals">
-
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Adoptable Animals!</text>
-</div>
-
-<div data-role="content">
-<div>
-<a href="#dogs"><button>Dogs</button></a>
-</div>
-
-<div>
-<a href="#cats"><button> Cats</button></a>
-</div>
-
-<div>
-<a href="#smallanimals"><button> Small Animals</button></a>
-</div>
-</div><!-- /content -->
-</div><!-- /page -->
-
-<!-- adoptable dogs page -->
-<div data-role="page" id="dogs">
-
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Dogs</text>
-</div>
-<div data-role="content">
-<ul data-role="listview" data-inset="true">
-   <li><a href="#mickey">
-       <img src="mickey.jpg.png">
-       <h2>Mickey</h2>
-       <p>SF Animal Care and Control</p></a>
-   </li>
-   <li><a href="#flo">
-       <img src="flo.jpg.png">
-       <h2>Flo</h2>
-       <p>SF Animal Care and Control</p></a>
-   </li>
-   <li><a href="#tad">
-       <img src="tad.jpg.png">
-       <h2>Tad</h2>
-       <p>Furry Friends Rescue</p></a>
-   </li>
-   <li><a href="#nugget">
-       <img src="nugget.jpg.png">
-       <h2>Nugget</h2>
-       <p>SF Animal Care and Control</p></a>
-   </li>
-   <li><a href="#stella">
-       <img src="stella.jpg.png">
-       <h2>Stella</h2>
-       <p>Furry Friends Rescue </p></a>
-   </li>
-   <li><a href="#jonah">
-       <img src="jonah.jpg.png">
-       <h2>Jonah</h2>
-       <p>SF Animal Care and Control</p></a>
-   </li>
-   <li><a href="#titan">
-       <img src="titan.jpg.png">
-       <h2>Titan</h2>
-       <p>Furry Friends Rescue</p></a>
-   </li> 
-</ul>
-</div><!-- /content -->
-</div><!-- /page -->
-
-<!-- Titan's page -->
-<div data-role="page" id="titan">
-
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Titan</text>
-</div>
-
-<div data-role="content">
-<h1><center> Titan</center></h1>
-<div><center><img src="titan.jpg.png"></center></div>
-<center><b>Name:</b>Titan </center>
-<center><b>ID:</b>D2027  </center>
-<center><b>**Note: Adoption in Northern California - SF Bay Area Only**</b></center>
-<center><b>Age:</b> 2 years </center>
-<center><b>Sex:</b> male </center>
-<center><b>Breed:</b> Rat Terrier mix </center>
-<center><b>Date Posted:</b> 7/17/07</center>
-
-<p><b>Description:</b> We rescued Titan from a shelter (Alameda) where he was running out of time.  At the shelter, 
-he was dog friendly.  But once in a foster home, he started to become dog-aggressive to new dogs and had redirect 
-behavioral problem.  Very friendly with people.  But there's something special about Titan so we decided to put in 
-an extra effort to help him and is responding very well with dogs on-site now at a training facility. At the facility,
- he now avoids trouble with other dogs, but still need supervision.  He's a beautiful dog, very affectionate and loves 
- people.  Loves to play ball and well behaved at facility.  He needs a very experienced german shepherd person with 
- leadership who will continue his training and exercise him daily.  His trainers are willing to continue working with 
- whomever adopts him. He now has a bright future and will thank you every day.</p>
-
-<div>
-<a href="#ffr"><button>Furry Friends Rescue</button></a>
-</div>
-</div><!-- /content -->
-</div><!-- /page -->
-
-<!-- Tad's page -->
-<div data-role="page" id="tad">
-
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Tad</text>
-</div>
-
-<div data-role="content">
-<h1><center> Tad</center></h1>
-<div><center><img src="tad.jpg.png"></center></div>
-<center><b>Name:</b>Tad </center>
-<center><b>ID:</b>D2343  </center>
-<center><b>**Note: Adoption in Northern California - SF Bay Area Only**</b></center>
-<center><b>Age:</b> 7 years 5 months </center>
-<center><b>Sex:</b> male </center>
-<center><b>Breed:</b> Miniature Pinscher Mix </center>
-<center><b>Date Posted:</b> 3/4/09</center>
-
-<p><b>Description:</b>He was adopted in June, 2009, but was returned because his adoptive home could not give him 
-the attention he deserved. On 11/1/12, he had to have most of his tail amputated due to an accident with a car door,
-but he is recovered now. Tad is smart, friendly, curious, loyal, and he lives up to the Miniature Pinscherâ€™s reputation 
-as the â€œking of toysâ€. He is nervous of change but settles to a routine. He would be happy lying next to you on the
-couch or proudly prancing in front of you on a walk.  Like all dogs, he needs daily exercise but is not a high energy
-dog.  He loves treats, is eager to learn new tricks and is quite the jumper. Tad was transferred to a new foster home 
-in April, 2013, where he is being called Dobie. The new foster home reports that Dobie adapts to new situations with 
-ease. He is polite, playful, comfortable in a crate, goes potty outside, and is a good alarm barker. He has learned a 
-few new tricks, and his foster is working on his anxiety issues while riding in a car. Dobie would like to be your new 
-best friend in a quiet adult home.</p>
-
-<div>
-<a href="#ffr"><button>Furry Friends Rescue</button></a>
-</div>
-</div><!-- /content -->
-</div><!-- /page -->
-
-<!-- Stella's page -->
-<div data-role="page" id="stella">
-
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Stella</text>
-</div>
-
-<div data-role="content">
-<h1><center>Stella</center></h1>
-<div><center><img src="stella.jpg.png"></center></div>
-<center><b>Name:</b>Stella</center>
-<center><b>ID:</b>D2740 </center>
-<center><b>**Note: Adoption in Northern California - SF Bay Area Only**</b></center>
-<center><b>Age:</b> Cairn Terrier / Yorkshire Terrier Mix</center>
-<center><b>Sex:</b> female </center>
-<center><b>Breed:</b>11 years 10 months </center>
-<center><b>Date Posted:</b>11/8/11</center>
-
-<p><b>Description:</b>Stella was rescued on 11/7/11 from a crowded shelter (Alameda) where she was out of time. She is 
-a middle age sr. sweetie. Good with other dogs. No cats (she will bark & try to chase). She was badly matted & dirty at 
-the shelter. Update from foster home: She's a silly, playful fun dog who loves to go for walks, and is great with other 
-dogs. She tries to be the alpha, so needs leadership. She may guard person or home if allowed to. She also loves laps 
-and gives lots of kisses. Kids 12+. Her activity level is moderate. Loves to play with toys, but not hyper in anyway.
- She does try to climb up on anything she can get to- desks, tables, etc. and she can jump very well. Hard to believe 
- she is 10 yrs young. We will get a 2nd vet to age her. She looks about 8 yrs to us. She is very curious and spunky at 
- home.  Look how cute she is after her grooming. In dog years, she is a healthy 56 years old in human years. </p>
-
-<div>
-<a href="#ffr"><button>Furry Friends Rescue</button></a>
-</div>
-</div><!-- /content -->
-</div><!-- /page -->
-
-<!-- Mickey's page -->
-<div data-role="page" id="mickey">
-
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Mickey</text>
-</div>
-
-
-<div data-role="content">
-<h1><center> Mickey </center></h1>
-<div><center><img src="mickey.jpg.png"></center></div>
-<center>Name: Mickey </center>
-<center>ID: A339593 </center>
-<center>Went to SF SPCA 7/12/2013</center>
-<center>Age: 5 years </center>
-<center>Sex: Neutered male </center>
-<center>Breed: Chihuahua mix </center>
-<center>Date Posted: 6/22/2013</center>
-
-<p><b>Description:</b> Mickey is a sweet little fellow who's still getting used to life here at the shelter. 
-This lovely lad enjoys going on walks and loves to be near you. Mickey is bright and confident when he's at
-ease. A family with older children would be fine for Mickey. </p>
-
-<div>
-<a href="#sfacc"><button>SF Animal Control & Care</button></a>
-</div>
-</div><!-- /content -->
-</div><!-- /page -->
-
-<!-- Flo's page -->
-<div data-role="page" id="flo">
-
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Flo</text>
-</div>
-
-
-<div data-role="content">
-<h1><center> Flo </center></h1>
-<div><center><img src="flo.jpg.png"></center></div>
-<center><b>Name:</b> Flo  </center>
-<center><b>ID:</b> A338826  </center>
-<center><b>Went to SF SPCA 7/17/2013</b></center>
-<center><b>Age:</b> 2 years </center>
-<center><b>Sex:</b> Female </center>
-<center><b>Breed:</b> Rat Terrier mix </center>
-<center><b>Date Posted:</b> 6/22/2013</center>
-
-<p><b>Description:</b> Flo is a busy and bright terrier gal who loves to be on the go! 
-This big eared cutie is playful and loves toys and walks by your side. At the end of a 
-long, action-packed day Flo is always up for some quality lap time. A family with older 
-children would be fine for Flo.</p>
-
-<div>
-<a href="#sfacc"><button>SF Animal Control & Care</button></a>
-</div>
-</div><!-- /content -->
-</div><!-- /page -->
-
-<!--Nugget's page--!>
-<div data-role="page" id="nugget">
-
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Nugget</text>
-</div>
-
-
-<div data-role="content">
-<h1><center> Nugget </center></h1>
-<div><center><img src="nugget.jpg.png"></center></div>
-<center><b>Name:</b> Nugget  </center>
-<center><b>ID:</b> A339823 </center>
-<center><b>Went to SF SPCA 7/17/2013</b></center>
-<center><b>Age:</b> 7 months </center>
-<center><b>Sex:</b> Male </center>
-<center><b>Breed:</b> Dachshund/Terrier mix </center>
-<center><b>Date Posted:</b> 6/27/2013</center>
-
-<p><b>Description:</b> This little cutie is a Nugget of pure gold!
-Nugget is a peppy and affectionate pup who's friendly and playful; 
-he loves toys and going for walks with you. Nugget can't wait to go 
-to reward based puppy classes to learn all kinds of skills and tricks.
-A family with older children would be fine for Nugget.</p>
-
-<div>
-<a href="#sfacc"><button>SF Animal Control & Care</button></a>
-</div>
-
-</div><!-- /content -->
-</div><!-- /page -->
-
-<!--Jonah's page--!>
-<div data-role="page" id="jonah">
-
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Jonah</text>
-</div>
-
-
-<div data-role="content">
-<h1><center> Jonah </center></h1>
-<div><center><img src="jonah.jpg.png"></center></div>
-<center><b>Name:</b> Jonah </center>
-<center><b>ID:</b> A340345 </center>
-<center><b>Went to SF SPCA 7/14/2013</b></center>
-<center><b>Age:</b> 4 months </center>
-<center><b>Sex:</b> Male </center>
-<center><b>Breed:</b> Pit Bull Terrier </center>
-<center><b>Date Posted:</b> 7/6/2013</center>
-
-<p><b>Description:</b> Beautiful boy Jonah is a very friendly, active 
-and spirited pup with gorgeous green eyes. He loves playing with toys 
-and exploring the world. This smart pup already knows "sit" and can't
-wait to learn more at reward based training classes. Like all puppies,
-Jonah is looking for adopters who will provide him with plenty of 
-time, structure and training. A family with older children would be
-fine for Jonah.</p>
-
-<div>
-<a href="#sfacc"><button>SF Animal Control & Care</button></a>
-</div>
-
-</div><!-- /content -->
-</div><!-- /page -->
-
-<!-- adoptable cats page---!> 
-<div data-role="page" id="cats">
-
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Adoptable cats</text>
-</div>
-
-
-<div data-role="content">
-<ul data-role="listview" data-inset="true">
-   <li><a href="#bits">
-       <img src="bits.jpg.png">
-       <h2>Bits</h2>
-       <p>SF Animal Care and Control</p></a>
-   </li>
-   <li><a href="#buddy">
-       <img src="buddy.jpg.png">
-       <h2>Buddy</h2>
-       <p>SF Animal Care and Control</p></a>
-   </li>
-   <li><a href="#churnish">
-       <img src="churnish.jpg.png">
-       <h2>Churnish</h2>
-       <p>SF Animal Care and Control</p></a>
-   </li>
-   <li><a href="#veronica">
-       <img src="veronica.jpg.png">
-       <h2>Veronica</h2>
-       <p>SF Animal Care and Control</p></a>
-   </li>
-</ul>
-</div><!-- /content -->
-
-</div><!-- /page -->
-
-<!--Bit's page--!>
-<div data-role="page" id="bits">
-
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Bits</text>
-</div>
-
-
-<div data-role="content">
-<h1><center> Bits </center></h1>
-<div><center><img src="bits.jpg.png"></center></div>
-<center><b>Name:</b> Bits </center>
-<center><b>ID:</b>A335573 </center>
-<center><b>Available: ACC</b></center>
-<center><b>Age:</b> 5 years</center>
-<center><b>Sex:</b> Neutered Male </center>
-<center><b>Breed:</b> Domestic Shorthair </center>
-<center><b>Date Posted:</b> 4/14/2013</center>
-
-<p><b>Description:</b> Bits is a big, handsome, energetic fellow. 
-He has black on white markings that are all his own quite a unique
-looking cat. Bits is affectionate and likes to be petted and to roll
-to show you his belly. He is a playful guy and is interested in the
-world around him, he likes to explore. He has a strong personality 
-and will probably do best as the only pet in a household and should 
-not be with small children. Bits is waiting for his forever home, come
-meet him today and see if you are the one for him.</p>
-
-<div>
-<a href="#sfacc"><button>SF Animal Control & Care</button></a>
-</div>
-
-</div><!-- /content -->
-</div><!-- /page -->
-
-<!--Buddy page--!>
-<div data-role="page" id="buddy">
-
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Buddy</text>
-</div>
-
-
-<div data-role="content">
-<h1><center> </center></h1>
-<div><center><img src="buddy.jpg.png"></center></div>
-<center><b>Name:</b>Buddy </center>
-<center><b>ID:</b>A338972  </center>
-<center><b>Available: ACC</b></center>
-<center><b>Age:</b>1 year </center>
-<center><b>Sex:</b> neutered male </center>
-<center><b>Breed:</b>Tabby/Orange/Domestic Shorthair  </center>
-<center><b>Date Posted:</b> 6/15/2013</center>
-
-
-<p><b>Description:</b>This little Buddy needs a buddy. He a very sweet,
-handsome young fellow with great coloring and thick stripes who really
-just needs come TLC. Buddy is a shy guy and will do best in a quiet
-steady home that will allow him the time to adjust and to build confidence
-in himself and the world around him. He is rather scared here at the
-shelter with all the new sounds and smells. So if you are looking for
-a cat that needs some extra love please come quick and see if this is 
-the Buddy for you.</p>
-
-<div>
-<a href="#sfacc"><button>SF Animal Control & Care</button></a>
-</div>
-
-</div><!-- /content -->
-</div><!-- /page -->
-
-<!--Churnish page--!>
-<div data-role="page" id="churnish">
-
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Churnish</text>
-</div>
-
-
-<div data-role="content">
-<h1><center> </center></h1>
-<div><center><img src="churnish.jpg.png"></center></div>
-<center><b>Name:</b>Churnish</center>
-<center><b>ID:</b>A339140</center>
-<center><b>Available: ACC</b></center>
-<center><b>Age:</b>7 years</center>
-<center><b>Sex:</b>neutered male </center>
-<center><b>Breed:</b>Domestic Shorthair </center>
-<center><b>Date Posted:</b> 6/29/2013</center>
-
-<p><b>Description:</b>Churnish is a very friendly and fun cat ï¿½ï¿½ï¿½ he is
-also a really BIG guy. He is rather overweight and will need an adopter 
-with the time and intent to work with a vet to help Churnish return to
-a manageable and comfortable weight. Churnish is at the shelter because his
-owner had to be moved to a care facility and could not take Churnish
-along. Churnish likes people, he can sometimes get a bit mouthy with
-ï¿½ï¿½ï¿½love bitesï¿½ï¿½ï¿½ but is a true sweetheart and ready for a loving new home
-</p>
-
-<div>
-<a href="#sfacc"><button>SF Animal Control & Care</button></a>
-</div>
-
-</div><!-- /content -->
-</div><!-- /page -->
-
-<!--Veronica's page--!>
-<div data-role="page" id="veronica">
-
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Veronica</text>
-</div>
-
-
-<div data-role="content">
-<h1><center>Veronica</center></h1>
-<div><center><img src="veronica.jpg.png"></center></div>
-<center><b>Name:</b>Veronica</center>
-<center><b>ID:</b>A337933 </center>
-<center><b>Available: ACC</b></center>
-<center><b>Age:</b>3 years </center>
-<center><b>Sex:</b>spayed female </center>
-<center><b>Breed:</b> Domestic Shorthair</center>
-<center><b>Date Posted:</b> 5/28/2013</center>
-
-<p><b>Description:</b> Veronica is cute in her tuxedo and seems to knows it. She
-can be a bit shy at first but warms up quickly to show what a sweet girl she is. She
-is at the shelter because her owner has medical issues that keep them from being able
-to care for Veronica. She is ready for a new home where she is sure to shine. Come 
-meet and adopt Veronica and make everyoneï¿½ï¿½ï¿½s day!</p>
-
-<div>
-<a href="#sfacc"><button>SF Animal Control & Care</button></a>
-</div>
-
-</div><!-- /content -->
-</div><!-- /page -->
-<!-- adoptable small animals page---!> 
-<div data-role="page" id="smallanimals">
-
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Adoptable Small Animals</text>
-</div>
-
-
-<div data-role="content">
-<ul data-role="listview" data-inset="true">
-   <li><a href="#trix">
-       <img src="trix.jpg.png">
-       <h2>Trix</h2>
-       <p>SF Animal Care and Control</p></a>
-   </li>
-   <li><a href="#geminisamantha">
-       <img src="geminisamantha.jpg.png">
-       <h2>Gemini & Samantha</h2>
-       <p>SF Animal Care and Control</p></a>
-   </li>
-   <li><a href="#junebug">
-       <img src="junebug.jpg.png">
-       <h2>Junebug</h2>
-       <p>SF Animal Care and Control</p></a>
-   </li>
-   <li><a href="#tika">
-       <img src="tika.jpg.png">
-       <h2>Tika</h2>
-       <p>SF Animal Care and Control</p></a>
-   </li>
-   <li><a href="#alfabeta">
-   	<img src="alfabeta.jpg.png">
-   	<h2>Alfa & Beta</h2>
-   	<p>SF Animal Care and Control</p></a>
-   </li>
-   <li><a href="#matildamichelle">	
-   	<img src="matildamichelle.jpg.png">
-   	<h2>Matilda & Michelle</h2>
-   	<p>SF Animal Care and Control</p></a>
-   </li>
-</ul>
-</div><!-- /content -->
-
-</div><!-- /page -->
-
-<!--Trix's page--!>
-<div data-role="page" id="trix">
-
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Trix</text>
-</div>
-
-
-<div data-role="content">
-<h1><center>Trix</center></h1>
-<div><center><img src="trix.jpg.png"></center></div>
-<center><b>Name:</b>Trix</center>
-<center><b>ID:</b>A337732 </center>
-<center><b>Available: ACC</b></center>
-<center><b>Age:</b>1.5 years </center>
-<center><b>Sex:</b>female </center>
-<center><b>Breed:</b> Rabbit</center>
-<center><b>Date Posted:</b> 5/25/2013</center>
-
-<p><b>Description:</b> Trix is a bright-eyed and very active bunny. She is curious,
-friendly, and very playful. Trix was a stray that was lucky to be found in Glen
- Canyon Park and was brought to the shelter. Trix is ready for her forever home.
-  Come meet this great bunny today and see if this Trix is for you!</p>
-  
-  <div>
-<a href="#sfacc"><button>SF Animal Control & Care</button></a>
-</div>
-  
-</div><!-- /content -->
-</div><!-- /page -->
-
-<!--Gemini & Samantha's page--!>
-<div data-role="page" id="geminisamantha">
-
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Gemini & Samantha</text>
-</div>
-
-
-<div data-role="content">
-<h1><center>Gemini & Samantha</center></h1>
-<div><center><img src="geminisamantha.jpg.png"></center></div>
-<center><b>Name:</b>Gemini & Samantha</center>
-<center><b>ID:</b>A338850 & A339629 </center>
-<center><b>Available: ACC</b></center>
-<center><b>See <a href="www.Mickacoo.org">Mickacoo</a> for information and more adoptable King Pigeons</b></center>
-<center><b>Age:</b>Adult </center>
-<center><b>Sex:</b>Unknown </center>
-<center><b>Breed:</b>King Pigeon</center>
-<center><b>Date Posted:</b> 7/3/2013</center>
-
-<p><b>Description:</b>King Pigeons make great pets and companion birds. They are sweet,
-smart, calm, and full of personality. But people are not very aware of them as being 
-pets and they have a hard time finding a home. Kings are domestic pigeons that are bred
- to be eaten, but they sometimes escape or are set "free". They do not survive long on
-  their own. The lucky ones end up in shelters, though they often wait for a long time 
-  before finding a home. Come in and see Gemini & Samantha at the shelter and see if
-   these are the feathered companions you have been waiting to adopt. </p>
-   
-   <div>
-<a href="#sfacc"><button>SF Animal Control & Care</button></a>
-</div>
-   
-</div><!-- /content -->
-</div><!-- /page -->
-
-<!--Junebug's page--!>
-<div data-role="page" id="junebug">
-
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Junebug</text>
-</div>
-
-
-<div data-role="content">
-<h1><center>Junebug</center></h1>
-<div><center><img src="junebug.jpg.png"></center></div>
-<center><b>Name:</b>Junebug</center>
-<center><b>ID:</b>A339664 </center>
-<center><b>Available: ACC</b></center>
-<center><b>Age:</b>Adult </center>
-<center><b>Sex:</b>Female </center>
-<center><b>Breed:</b>Lop-ear/Mix</center>
-<center><b>Date Posted:</b> 7/3/2013</center>
-
-<p><b>Description:</b>Meet Junebug. She is a curious and playful girl. She is also 
-sweet and friendly. And did adorable get mentioned? Junebug was found in very busy 
-part of the city and is ready for a secure and happy forever home. Come meet this 
-great rabbit today and see if she is the bun for you. </p>
-
-<div>
-<a href="#sfacc"><button>SF Animal Control & Care</button></a>
-</div>
-
-</div><!-- /content -->
-</div><!-- /page -->
-
-<!--alfa&beta's page---!>
-<div data-role="page" id="alfabeta">
-
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Alfa & Beta</text>
-</div>
-
-
-<div data-role="content">
-<h1><center>Alfa & Beta</center></h1>
-<div><center><img src="alfabeta.jpg.png"></center></div>
-<center><b>Name:</b>Alfa & Beta</center>
-<center><b>ID:</b>A339394 & A339395  </center>
-<center><b>Available: ACC</b></center>
-<center><b>Age:</b>6 months </center>
-<center><b>Sex:</b>Both male </center>
-<center><b>Breed:</b>Domestic Mouse</center>
-<center><b>Date Posted:</b> 7/3/2013</center>
-
-<p><b>Description:</b>Alfa and Beta are sweet, friendly and adorable little domestic
-mice who need a new home. They were owner surrendered when a house mate decided they 
-did not want to share their home with rodents. These 2 boy mice like to be handled are
- will make great small pets. Come meet and adopt them today. </p>
- 
- <div>
-<a href="#sfacc"><button>SF Animal Control & Care</button></a>
-</div>
- 
-</div><!-- /content -->
-</div><!-- /page ---!>
-
-<!--Tika's page--!>
-<div data-role="page" id="tika">
-
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Tika</text>
-</div>
-
-
-<div data-role="content">
-<h1><center>Tika</center></h1>
-<div><center><img src="tika.jpg.png"></center></div>
-<center><b>Name:</b>Tika</center>
-<center><b>ID:</b>A339553 </center>
-<center><b>Available: ACC</b></center>
-<center><b>Age:</b>Adult </center>
-<center><b>Sex:</b>Female </center>
-<center><b>Breed:</b>Rabbit</center>
-<center><b>Date Posted:</b> 7/3/2013</center>
-
-<p><b>Description:</b> Tika was seen out and about in the Excelsior district of SF 
-for over a month before she was caught and brought in to the shelter. She is a domestic 
-rabbit that will do best with a rabbit experienced owner. She is getting more and
-more social and friendly as she get visits from the great volunteers here at the 
-shelter. She is a beautiful rabbit with her chocolate colored nose and ears. Come 
-meet her today. </p>
-
-<div>
-<a href="#sfacc"><button>SF Animal Control & Care</button></a>
-</div>
-
-</div><!-- /content -->
-</div><!-- /page -->
-
-
-
-<!--Matilda & Michelle's page--!>
-<div data-role="page" id="matildamichelle">
-
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Matilda & Michelle</text>
-</div>
-
-
-<div data-role="content">
-<h1><center>Matilda & Michelle</center></h1>
-<div><center><img src="matildamichelle.jpg.png"></center></div>
-<center><b>Name:</b>Matilda & Michelle</center>
-<center><b>ID:</b>A339714 & A339715 </center>
-<center><b>Available: ACC</b></center>
-<center><b>Age:</b> adult </center>
-<center><b>Sex:</b>female </center>
-<center><b>Breed:</b> chicken</center>
-<center><b>Date Posted:</b> 5/25/2013</center>
-
-<p><b>Description:</b> They are very people friendly and seem to be quite bonded to each other. It 
-would be wonderful if they could be adopted together. Come meet these sweet hens today and see if
-they are the ones for you.  Up-to-date with routine shots ï¿½ï¿½ï¿½ Primary colors: Black, White</p>
-
-<div>
-<a href="#sfacc"><button>SF Animal Control & Care</button></a>
-</div>
-
-</div><!-- /content -->
-</div><!-- /page -->
-
-<!-- animal shelters page -->
-<div data-role="page" id="animalshelters">
-
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Animal Shelters</text>
-</div>
-
-<div data-role="content">
-<ul data-role="listview" data-inset="true">
-   <li><a href="#sfacc">
-       <img src="sfacc.jpg.png">
-       <h2>San Francisco Animal Care & Control</h2>
-       <p>San Francisco</p></a>
-   </li>
-   <li><a href="#sfspca">
-       <img src="sfspca.jpg.png">
-       <h2>San Francisco SPCA</h2>
-       <p>San Francisco, CA </p></a>
-   </li>
-   <li><a href="#ffr">
-       <img src="ffr.jpg.png">
-       <h2>Furry Friends Rescue</h2>
-       <p>Mountain View, CA</p></a>
-   </li>
-</ul>
-</div><!-- /content -->
-</div><!-- /page -->
-
-<!-- SFACC's page---!> 
-<div data-role="page" id="sfacc">
-
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>SFACC</text>
-</div>
-
-
-<div data-role="content">
-<h1><center>SF Animal Care & Control</center></h1>
-<div><center><img src="sfacc.jpg.png"></center></div>
-
-<div><center><b><p>Hours:</b><br></center>
-<center>Sun & Monday: CLOSED <br></center>
-<center>Tuesday, Thursday-Saturday: 11:00 am-6:00 pm<br></center>
-<center>Wednesday: 11:00 am-7:00 pm</p></center></div>
-
-<center><div><b><p>Address:</b><br></center>
-<center>Animal Care & Control<br></center>
-<center>1200 15th Street<br></center>
-<center>San Francisco, CA 94103</center></p></div>
-
-
-<center><div><b>Websites:</b> <a href="www.animalshelter.sfgov.org"> here </a> or <a href="
-www.sfgov.org/acc"> here </a></div></center>
-
-<center><div><address>
-<a href="mailto:ACC@sfgov.org">Email</a> 
-</address></div></center>
-
-<center><div><p><b>Phone number:</b>(415) 554-6364</p></div></center>
-
-</div><!-- /content -->
-</div><!-- /page -->
-
-
-<!-- SFSPCA page---!> 
-<div data-role="page" id="sfspca">
-
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>San Francisco SPCA</text>
-</div>
-
-<div data-role="content">
-<h1><center>San Francisco SPCA/center></h1>
-<div><center><img src="sfspca.jpg.png"></center></div>
-
-<div><center><b><p>Hours:</b><br></center>
-<center>Monday-Friday, 1:00 p.m.-7:00 p.m. <br></center>
-<center>Saturday ï¿½ï¿½ï¿½ Sunday, 10:00 a.m. ï¿½ï¿½ï¿½ 6:00 p.m.<br></center></div>
-
-<center><div><b><p>Address:</b><br></center>
-<center>SF SPCA Pet Adoption Center<br></center>
-<center>250 Florida Street<br></center>
-<center>San Francisco, CA 94103</center></p></div>
-
-
-<center><div><b>Websites:</b> <a href="sfspca.org"> here </a></div></center>
-
-<center><div><address>
-<a href="mailto:webmaster@sfspca.org">Email</a> 
-</address></div></center>
-
-<center><div><p><b>Phone number:</b>(415)-522-3500</p></div></center>
-
-
-</div><!-- /content -->
-</div><!-- /page -->
-
-
-<!-- Furry Friends rescue page---!> 
-<div data-role="page" id="ffr">
-
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Furry Friends Rescue</text>
-</div>
-
-<div data-role="content">
-<h1><center>Furry Friends Rescue></h1>
-<div><center><img src="ffr.jpg.png"></center></div>
-
-<div><center><b><p>Hours:</b><br></center>
-<center>Sun & Monday: CLOSED <br></center>
-<center>Tuesday, Thursday-Saturday: 11:00 am-6:00 pm<br></center>
-<center>Wednesday: 11:00 am-7:00 pm</p></center></div>
-
-<center><div><b><p>Address:</b><br></center>
-<center>Animal Care & Control<br></center>
-<center>1200 15th Street<br></center>
-<center>San Francisco, CA 94103</center></p></div>
-
-
-<center><div><b>Websites:</b> <a href="www.animalshelter.sfgov.org"> here </a> or <a href="
-www.sfgov.org/acc"> here </a></div></center>
-
-<center><div><address>
-<a href="mailto:ACC@sfgov.org">Email</a> 
-</address></div></center>
-
-<center><div><p><b>Phone number:</b>(415) 554-6364</p></div></center>
-
-http://www.furryfriendsrescue.org/
-
-P.O. Box 7270,
-Fremont, CA 94537-7270
-Phone: 510.794.4703
-info@furryfriendsrescue.org
-
-</div><!-- /content -->
-</div><!-- /page -->
-
-
-
-</body>
-</html>
-
-
-
-</script>
-
-<style>
-#head{
-height:45px;
-font-size:17px;
-}
-</style>
-
-<!-- Home page -->
-<div data-role="page" id="home">
-
-<style>
-#head{
-height:45px;
-font-size:19px;
-}
-</style>
-
-<div id="head" data-role="header" data-theme="d" align="center">
-<text> Cupet </text>
-</div>
-
-<div data-role="content">
-<img border="0" src="maddieapp.jpg"  alt="Madison" width="400" height="300">
-
-<!--Take quiz--!>
-<div>
-<a href="#startquiz"><button>Find your perfect pet</button></a>	
-</div>
-
-<!--submit animal--!>
-<div>
-<a href="#submitanimal"><button>Submit an adoptable pet</button></a>
-</div>
-
-<!--adoptable pets--!>
-<div>
-<a href="#animals"><button> Look at current adoptable animals!</button></a>
-</div>
-
-<!--Animal Shelter page--!>
-<div>
-<a href="#animalshelters"><button> Animal Shelters </button></a>
-</div>
-</div><!-- /content -->	
-</div><!-- /page -->
-
 
 
 <!-- Start of quiz page -->
 <div data-role="page" id="startquiz">
 
-<div id="head" data-role="header" data-theme="d" align="center">
  <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Find your perfect pet</text>
-</div>
 
 <div>
 
@@ -1285,11 +116,8 @@ Take this quiz to find the perfect pet for you! If there are none, don't worry,
 <!--Quiz page--!>
 <div data-role="page" id="quiz">
 
-<div id="head" data-role="header" data-theme="d" align="center">
  <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Quiz</text>
-</div>
+
 
 <div data-role="content">
 <script type="text/javascript" src="http://form.jotform.us/jsform/32196974969173"></script>
@@ -1300,11 +128,7 @@ Take this quiz to find the perfect pet for you! If there are none, don't worry,
 <!--Submit an animal page--!>
 <div data-role="page" id="submitanimal">
 
-<div id="head" data-role="header" data-theme="d" align="center">
  <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Quiz</text>
-</div>
 
 <div data-role="content">
 <form action="form.php" method="post">
@@ -1467,11 +291,9 @@ Take this quiz to find the perfect pet for you! If there are none, don't worry,
 <!-- Animals page -->
 <div data-role="page" id="animals">
 
-<div id="head" data-role="header" data-theme="d" align="center">
+
  <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Adoptable Animals!</text>
-</div>
+  
 
 <div data-role="content">
 <div>
@@ -1491,12 +313,9 @@ Take this quiz to find the perfect pet for you! If there are none, don't worry,
 <!-- Mickey's page -->
 <div data-role="page" id="mickey">
 
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Mickey</text>
-</div>
 
+ <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
+    
 
 <div data-role="content">
 <h1><center> Mickey </center></h1>
@@ -1522,11 +341,8 @@ ease. A family with older children would be fine for Mickey. </p>
 <!-- Flo's page -->
 <div data-role="page" id="flo">
 
-<div id="head" data-role="header" data-theme="d" align="center">
  <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Flo</text>
-</div>
+  
 
 
 <div data-role="content">
@@ -1554,12 +370,7 @@ children would be fine for Flo.</p>
 <!--Nugget's page--!>
 <div data-role="page" id="nugget">
 
-<div id="head" data-role="header" data-theme="d" align="center">
  <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Nugget</text>
-</div>
-
 
 <div data-role="content">
 <h1><center> Nugget </center></h1>
@@ -1588,12 +399,7 @@ A family with older children would be fine for Nugget.</p>
 <!--Jonah's page--!>
 <div data-role="page" id="jonah">
 
-<div id="head" data-role="header" data-theme="d" align="center">
  <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Jonah</text>
-</div>
-
 
 <div data-role="content">
 <h1><center> Jonah </center></h1>
@@ -1624,12 +430,7 @@ fine for Jonah.</p>
 <!-- adoptable cats page---!> 
 <div data-role="page" id="cats">
 
-<div id="head" data-role="header" data-theme="d" align="center">
  <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Adoptable cats</text>
-</div>
-
 
 <div data-role="content">
 <ul data-role="listview" data-inset="true">
@@ -1661,13 +462,8 @@ fine for Jonah.</p>
 <!--Bit's page--!>
 <div data-role="page" id="bits">
 
-<div id="head" data-role="header" data-theme="d" align="center">
  <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Bits</text>
-</div>
-
-
+ 
 <div data-role="content">
 <h1><center> Bits </center></h1>
 <div><center><img src="bits.jpg.png"></center></div>
@@ -1698,12 +494,7 @@ meet him today and see if you are the one for him.</p>
 <!--Buddy page--!>
 <div data-role="page" id="buddy">
 
-<div id="head" data-role="header" data-theme="d" align="center">
  <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Buddy</text>
-</div>
-
 
 <div data-role="content">
 <h1><center> </center></h1>
@@ -1736,12 +527,7 @@ the Buddy for you.</p>
 <!--Churnish page--!>
 <div data-role="page" id="churnish">
 
-<div id="head" data-role="header" data-theme="d" align="center">
  <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Churnish</text>
-</div>
-
 
 <div data-role="content">
 <h1><center> </center></h1>
@@ -1773,11 +559,7 @@ love bites but is a true sweetheart and ready for a loving new home
 <!--Veronica's page--!>
 <div data-role="page" id="veronica">
 
-<div id="head" data-role="header" data-theme="d" align="center">
  <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Veronica<text>
-</div>
 
 
 <div data-role="content">
@@ -1806,13 +588,9 @@ meet and adopt Veronica and make everyoneï¿½ï¿½ï¿½s day!</p>
 <!-- adoptable small animals page---!> 
 <div data-role="page" id="smallanimals">
 
-<div id="head" data-role="header" data-theme="d" align="center">
+
  <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Adoptable Small Animals<text>
-</div>
-
-
+  
 <div data-role="content">
 <ul data-role="listview" data-inset="true">
    <li><a href="#trix">
@@ -1853,12 +631,7 @@ meet and adopt Veronica and make everyoneï¿½ï¿½ï¿½s day!</p>
 <!--Trix's page--!>
 <div data-role="page" id="trix">
 
-<div id="head" data-role="header" data-theme="d" align="center">
  <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Trix<text>
-</div>
-
 
 <div data-role="content">
 <h1><center>Trix</center></h1>
@@ -1886,12 +659,7 @@ friendly, and very playful. Trix was a stray that was lucky to be found in Glen
 <!--Gemini & Samantha's page--!>
 <div data-role="page" id="geminisamantha">
 
-<div id="head" data-role="header" data-theme="d" align="center">
  <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Gemini & Samantha<text>
-</div>
-
 
 <div data-role="content">
 <h1><center>Gemini & Samantha</center></h1>
@@ -1923,11 +691,7 @@ pets and they have a hard time finding a home. Kings are domestic pigeons that a
 <!--Junebug's page--!>
 <div data-role="page" id="junebug">
 
-<div id="head" data-role="header" data-theme="d" align="center">
  <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Junebug<text>
-</div>
 
 
 <div data-role="content">
@@ -1956,12 +720,8 @@ great rabbit today and see if she is the bun for you. </p>
 <!--alfa&beta's page---!>
 <div data-role="page" id="alfabeta">
 
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Alfa & Beta<text>
-</div>
 
+ <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
 
 <div data-role="content">
 <h1><center>Alfa & Beta</center></h1>
@@ -1989,12 +749,7 @@ did not want to share their home with rodents. These 2 boy mice like to be handl
 <!--Tika's page--!>
 <div data-role="page" id="tika">
 
-<div id="head" data-role="header" data-theme="d" align="center">
  <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Tika<text>
-</div>
-
 
 <div data-role="content">
 <h1><center>Tika</center></h1>
@@ -2026,12 +781,8 @@ meet her today. </p>
 <!--Matilda & Michelle's page--!>
 <div data-role="page" id="matildamichelle">
 
-<div id="head" data-role="header" data-theme="d" align="center">
- <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Matilda & Michelle<text>
-</div>
 
+ <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
 
 <div data-role="content">
 <h1><center>Matilda & Michelle</center></h1>
@@ -2058,11 +809,9 @@ they are the ones for you.  Up-to-date with routine shots ï¿½ï¿½ï¿½ Pri
 <!-- animal shelters page -->
 <div data-role="page" id="animalshelters">
 
-<div id="head" data-role="header" data-theme="d" align="center">
+
  <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Animal Shelters<text>
-</div>
+
 
 <div data-role="content">
 <ul data-role="listview" data-inset="true">
@@ -2088,11 +837,7 @@ they are the ones for you.  Up-to-date with routine shots ï¿½ï¿½ï¿½ Pri
 <!-- SFACC's page---!> 
 <div data-role="page" id="sfacc">
 
-<div id="head" data-role="header" data-theme="d" align="center">
  <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>SFACC</text>
-</div>
 
 
 <div data-role="content">
@@ -2126,11 +871,8 @@ www.sfgov.org/acc"> here </a></div></center>
 <!-- SFSPCA page---!> 
 <div data-role="page" id="sfspca">
 
-<div id="head" data-role="header" data-theme="d" align="center">
  <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>San Francisco SPCA</text>
-</div>
+
 
 <div data-role="content">
 <h1><center>San Francisco SPCA</center></h1>
@@ -2161,11 +903,9 @@ www.sfgov.org/acc"> here </a></div></center>
 <!--Furry Friends Rescue page---!> 
 <div data-role="page" id="ffr">
 
-<div id="head" data-role="header" data-theme="d" align="center">
+
  <a href="index.html" data-ajax="false"><img src="http://blog.flamingtext.com/blog/2013/08/12/flamingtext_com_1376337972_1046405373.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
-    </div>    </div>
-<text>Furry Friends Rescue</text>
-</div>
+
 
 <div data-role="content">
 <h1><center>Furry Friends Rescue</h1>
