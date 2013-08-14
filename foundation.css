@@ -1088,11 +1088,11 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #000; /* 2ba6cb */
+  color: #fff; /* 2ba6cb */
   text-decoration: none;
   line-height: inherit; }
   a:hover, a:focus {
-    color: #000; }	/*2795b6 */
+    color: #fff; }	/*2795b6 */
   a img {
     border: none; }
 
