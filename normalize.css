@@ -91,6 +91,7 @@ body {
 
 a:focus {
     outline: thin dotted;
+    color: #fff;
 }
 
 /**
@@ -100,6 +101,7 @@ a:focus {
 a:active,
 a:hover {
     outline: 0;
+    color: #fff;
 }
 
 /* ==========================================================================
