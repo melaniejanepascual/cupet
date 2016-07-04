@@ -1,4 +1,4 @@
 cupet
 =====
 
-Cupet will match people who are looking for the perfect pet! This will be based on their personality and connect them to animals with a personality that matches one another, so it'll be purrfect ;) There is a blind match feature and foster features!
+For my final project at Girls Who Code, I designed and coded Cupet for animal shelters and animal rescue organizations. The idea is for people looking to be pet owners to not only give animals in shelters & rescue organizations second chances to reduce the profits in the breeding industry, but also match pets with people correctly. A lot of people adopt based on an animals physical appearance, rather than personality.This product uses a quiz to understand animals and people better.
